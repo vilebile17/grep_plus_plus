@@ -9,7 +9,13 @@
 #include "printing.h"
 #include "string_stuff.h"
 
-bool helper_for_starting_indices(const Config &cfg, const std::vector<int> &starting_indices, const std::string &line, const int line_num, int &find_count) {
+bool helper_for_starting_indices(
+                const Config &cfg,
+                const std::vector<int> &starting_indices,
+                const std::string &line,
+                const int line_num,
+                int &find_count)
+{
         for (int start_index : starting_indices) {
                 if (!cfg.just_display_find_count) {
                         print_find(cfg, line, line_num, start_index);
