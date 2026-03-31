@@ -1,7 +1,7 @@
 # Grep++
 
-A small little cli tool that does everything that normal `grep` does. So it's
-probably not very useful.
+A small little cli tool that does a bit of what normal `grep` does.
+So it's probably not very useful...
 
 ## Installation
 
@@ -18,3 +18,8 @@ chmod +x compile.sh
 ## Why?
 
 ¯\_(ツ)_/¯
+
+### To-do list
+- [X] Split repo up into multiple files
+- [X] Add the -N flag to just find num entries
+- [ ] Allow multiple files to be searched
