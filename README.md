@@ -1,5 +1,3 @@
-# Grep++
-
 ![grep++](./pics/grep++.png)
 
 A little _cli-tool,_ built in `c++`, that does a lot of the functions of
