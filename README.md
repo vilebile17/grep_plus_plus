@@ -18,8 +18,7 @@ And after that, your executable file will be ready at **./build/grep++**.
 You can move to the _root directory_ and run it with:
 
 ```sh
-mv ./build/grep++
-./grep++ -v
+mv ./build/grep++ .
 ./grep++ -h
 ```
 
