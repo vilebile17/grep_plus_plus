@@ -6,9 +6,9 @@ add_executable(grep++)
 
 target_sources(grep++
         PRIVATE
-        main.cpp
-        config.cpp
-        printing.cpp
-        string_stuff.cpp
-        util.cpp
+        src/main.cpp
+        src/config.cpp
+        src/printing.cpp
+        src/string_stuff.cpp
+        src/util.cpp
 )
